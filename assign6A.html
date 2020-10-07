@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kharido</title>
+
+        
+
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS1.css">
+    </head>
+    <body style="background-color:;">
+        
+     <div id="1" style="margin-left:40%;float:left"> 
+
+     <form action="" method="get" onsubmit="sub()">
+          
+          <div style="margin-top:30px;margin-bottom:20px;text-align:center;color:grey"> 
+           Kharido.com  <br>
+          An online Shopping site
+          </div>
+         <fieldset> 
+
+         <legend>Feedback form</legend>
+
+         <label for="image">Name :</label> <br>
+         <input type="text" required  placeholder="Enter name"/><br><br>
+        <label for="feed">Feedback :</label><br>
+        <textarea id="feed" name="feedback" placeholder="Write something.." row="15" col="15"  required></textarea><br><br>
+        <label for="image">Upload image:</label> <br>
+        <input type="file" accept="image/*"  required /> <br><br>
+
+        <label for="pdf">Upload pdf:</label> <br>
+        <input type="file" accept=".pdf"  required /> <br><br>
+
+        <label for="pdf">Upload docx:</label> <br>
+        <input type="file" accept=".docx"  required /> <br><br>
+
+        <label >Send my location: </label>
+        <input type='checkbox' checked  > <br> <br>
+
+        <label >Send Profile data: </label>
+        <input type='checkbox' checked  > <br> <br> <br>
+
+         
+         <div style="text-align:center">
+
+        <button type="submit"> Submit </button>  <button type="reset"> Reset</button> 
+        <br>
+        </div>
+
+
+        </fieldset>
+
+
+     </form>
+         
+     </div>
+
+
+        <script> 
+        function sub(){
+
+            window.alert("form submitted successfully")
+        }
+        </script>
+       
+    </body>
+</html>
+
